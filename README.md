@@ -1,6 +1,6 @@
 # EX-NO-4-EXPERIMENTAL-VERIFICATION-OF-OSCILLATOR
 4. ##**EX.NO:* ## EXPERIMENTAL VERIFICATION OF RC Phase Shift and Wien Bridge oscillators 
-	DATE:
+
  ##AIM:
 To construct a RC phase shift and Wien bridge oscillator to generate sine wave using op-
 amp.
@@ -29,25 +29,20 @@ The frequency of oscillation is given by fo = 1 /  6 (2RC ).If an invertin
 ---
 ## CIRCUIT DIAGRAM
 RC PHASE SHIFT OSCILLATOR
-<img width="952" height="976" alt="image" src="https://github.com/user-attachments/assets/dd2b5792-8183-4214-9245-8373279357f6" />
+![WhatsApp Image 2025-11-30 at 22 51 16_0de06611](https://github.com/user-attachments/assets/18e64e5c-7f12-4389-92f0-8fefd2c36f89)
 
 
 
 ---
 
 ## MODEL GRAPH
-<img width="414" height="324" alt="image" src="https://github.com/user-attachments/assets/3389b740-b70e-4148-9bf9-e5319627260f" />
+![WhatsApp Image 2025-11-30 at 22 51 50_5a780d9c](https://github.com/user-attachments/assets/aa6b9a1c-b778-4a7a-b344-68549303aadd)
+
 
 ## DESIGN
 
-## RC PHASE SHIFT OSCILLATOR
-fo = 1 /  6 (2RC) Rf  29 R1
-C = 0.01F, fo = 200 Hz.
-R = 1 /  6 (2  f C ) = 3.3 k
-Therefore, Choose R = 3.3k
-To prevent loading,
-R1   10 R
-R1 =10 R = 33 k. Rf = 29R1=1MΩ
+![WhatsApp Image 2025-11-30 at 22 53 39_982a63e3](https://github.com/user-attachments/assets/20f55695-965a-4a93-8553-021c216d6e76)
+
 
 ---
 ## PROCEDURE
@@ -58,15 +53,10 @@ R1 =10 R = 33 k. Rf = 29R1=1MΩ
 ## TABULATION/OBSERVATION
 
 
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
----
+![WhatsApp Image 2025-11-30 at 22 52 08_39544410](https://github.com/user-attachments/assets/697c44d8-7b04-4471-a51c-c0dd910dbd8e)
+
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-30 at 22 56 18_cb1b5039](https://github.com/user-attachments/assets/6df9874e-7db7-4eb5-85f2-ad73ec403853)
 
 
 ---
@@ -90,29 +80,20 @@ The frequency of oscillation is given by fo = 1/2πRC
 
 ## CIRCUIT DIAGRAM
 WIEN BRIDGE OSCILLATOR
-<img width="570" height="480" alt="image" src="https://github.com/user-attachments/assets/be71f26e-36ad-4677-8117-51362146cbbd" />
+![WhatsApp Image 2025-11-30 at 22 54 06_fcf6af31](https://github.com/user-attachments/assets/bd7f9716-245f-442f-9220-18c8b65eba2a)
 
 
 ---
 ## MODEL GRAPH
-<img width="414" height="325" alt="image" src="https://github.com/user-attachments/assets/1cc285f7-05c7-4b65-af59-b28cf039fcd3" />
+![WhatsApp Image 2025-11-30 at 22 54 26_de9fa07a](https://github.com/user-attachments/assets/4b918935-fba1-470e-9127-0d7c916a7fd3)
 
 ---
 
 ## DESIGN
 
 ## WIEN BRIDGE OSCILLATOR
-Select frequency f0 = 1KHz
-fo = 1/2πRC
-A = 1+(Rf / R1) = 3.
-To find R & Rf.
-Therefore Rf = 2R1 & assume C = 0.1μf & find R from
-R=1/2πfC
-=1/2*3.14*1*103*0.1*10-6
-= 1.59KΩ.
-Assume R1 = 10R & find Rf from Rf = 2R1
-Therefore R1 = 1.5K *10=15KΩ
-Rf = 15K *2=30KΩ
+![WhatsApp Image 2025-11-30 at 22 55 17_5dd12cd4](https://github.com/user-attachments/assets/79642649-2e92-4498-96d6-7ea313fc349c)
+
 ---
 
 ## PROCEDURE
@@ -125,15 +106,10 @@ Rf = 15K *2=30KΩ
 ## TABULATION/OBSERVATION
 
 
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
----
+![WhatsApp Image 2025-11-30 at 22 54 54_cf7e6484](https://github.com/user-attachments/assets/d6179ed3-5a9f-48a9-87e7-5c834022efbf)
+
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-30 at 22 56 46_025d0068](https://github.com/user-attachments/assets/abfa7d25-a6a3-4552-8a30-6b3e8316758b)
 
 
 ---
